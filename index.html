@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Minesweeper Game</title>
+<!--    <link rel="stylesheet" href="css/materialize.css">-->
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<h1 class="centered">Welcome to Minesweeper game</h1>
+<div id=main_grid class="container centered">
+    <div id="main_lose" class="notice" visibility="hidden"> <i class="icons-sad"><span>You lose!</span></i></div>
+    <div id="main_win" class="notice" visibility="hidden"> <i class="icons-happy"><span>You win!</span></i></div>
+</div>
+<div class="container">
+    <button class="btn" onclick="reset();">Play again</button>
+</div>
+
+</body>
+<script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript">
+    initM();
+</script>
+</html>

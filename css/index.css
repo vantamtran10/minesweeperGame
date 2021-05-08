@@ -1,0 +1,152 @@
+.outset {
+    border-top: 3px solid white;
+    border-right: 3px solid #808080;
+    border-bottom: 3px solid #808080;
+    border-left: 3px solid white;
+}
+
+.cell {
+    padding: 5px 2px 6px 9px;
+    font-family: monospace;
+    font-weight: bold;
+    color: #C0C0C0;
+    background-color: #C0C0C0;
+    width: 21px;
+    height: 21px;
+}
+
+.revealed {
+    border-top: 1px solid #828282;
+    border-left: 1px solid #828282;
+    text-align: center;
+    padding: 8px 8px 8px 8px;
+    min-width: 10px;
+}
+
+.cell-bomb {
+    color: black;
+    background-color: red;
+    background-image: url("../imgs/bomb.jpg");
+    background-size: 35px;
+}
+
+.cell-0 {
+    color: #C2C2C2;
+    background-color: #C2C2C2;
+}
+
+.cell-1 {
+    color: #110CBD;
+}
+
+.cell-2 {
+    color: #155F10;
+}
+
+.cell-3 {
+    color: #BB1419;
+}
+
+.cell-4 {
+    color: #02126A;
+}
+
+.cell-5 {
+    color: #740E19;
+}
+
+.cell-6 {
+    color: #008284;
+}
+
+.cell-7 {
+    color: #840185;
+}
+
+.cell-8 {
+    color: #757575;
+}
+
+
+
+div.container {
+    min-width: 21px;
+    min-height: 21px;
+    position: relative;
+}
+
+div.mine {
+    text-align: right;
+}
+
+.icons-sad{
+    background-image: url("../imgs/sadly.png");
+    background-size: 200px;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    width: 200px;
+    height: 200px;
+}
+.icons-happy{
+    background-image: url("../imgs/happy.png");
+    background-size: 200px;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    width: 200px;
+    height: 200px;
+}
+.icon-bomb{
+    background-image: url("../imgs/bomb.jpg");
+    background-size: 5px;
+    width: 5px;
+    height: 5px;
+    display: inline;
+}
+.centered {
+    margin: auto;
+    width: 50%;
+    border: 3px solid #8080800f;
+    padding: 10px;
+}
+#main_grid{
+    position: relative;
+}
+#main_grid table{
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.notice {
+    border: 1px solid black;
+    flex: 1;
+    padding: 5%;
+    width: 90%;
+    height: 90%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #80808082;
+}
+#main_grid span{
+    font-size: 50px;
+}
+.btn {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    background-color: #26a69a;
+    text-align: center;
+    letter-spacing: 0.5px;
+    font-size: 1.5em;
+    color: #fff;
+    cursor: pointer;
+}
+.flagged{
+    background-image: url("../imgs/flag.jpg");
+    background-size: 35px;
+    width: 21px;
+    height: 21px;
+}
